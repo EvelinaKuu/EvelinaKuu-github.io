@@ -2,11 +2,18 @@ body {
   background-color: #FDFDFD;
 }
 
-.projecticon {
-  
+
+
+div .projecticon {
+  max-height: auto;
+  max-width: 300px;
 }
 
+div .devicon {
 
+
+font-size: 2.5em;
+}
 /*
 h1 {
   font-family: 'Poppins', sans-serif;
