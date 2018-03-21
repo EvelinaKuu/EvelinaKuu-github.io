@@ -1,12 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+$color1: rgba(255, 255, 255, 1);
+$color2: rgba(0, 0, 0, 1);
+$color3: rgba(7, 16, 19, 1);
+$color4: rgba(74, 82, 90, 1);
+$color5: rgba(54, 57, 70, 1);
+
+@font-face {
+    font-family: 'arca_majora_3bold';
+    src: url('../fonts/arcamajora3-bold.woff2') format('woff2'),
+         url('../fonts/arcamajora3-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'arca_majora_3heavy';
+    src: url('../fonts/arcamajora3-heavy.woff2') format('woff2'),
+         url('../fonts/arcamajora3-heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 body {
   background-color: #FDFDFD;
+  font-family: 'Didact Gothic', sans-serif;
+
 }
 
 h1 {
   font-size: 400px;
+  font-family: 'arca_majora_3heavy', sans-serif;
+  color: rgba(54, 57, 70, 1)
 }
 h2 {
   font-size: 200px;
+  font-family: 'arca_majora_3heavy', sans-serif;
+  color: rgba(74, 82, 90, 1);
 }
 h4 {
   font-size: 300px;
