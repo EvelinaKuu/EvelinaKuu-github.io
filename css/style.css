@@ -2,7 +2,12 @@ body {
   background-color: #FDFDFD;
 }
 
-
+h1 {
+  font-size: 160px;
+}
+h4 {
+  font-size: 100px;
+}
 
 div .projecticon {
   max-height: auto;
@@ -10,9 +15,15 @@ div .projecticon {
 }
 
 div .devicon {
-
-
 font-size: 2.5em;
+}
+
+img .contactme {
+  box-sizing: border-box
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+
 }
 /*
 h1 {
