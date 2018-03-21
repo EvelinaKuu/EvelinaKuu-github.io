@@ -18,13 +18,18 @@ div .devicon {
 font-size: 2.5em;
 }
 
-img .contactme {
+div .contacticon {
+  max-width: 100%;
+  font-size: 10rem;
+}
+
+/* img .contactme {
   box-sizing: border-box
   max-width: 100%;
   display: block;
   margin: 0 auto;
 
-}
+} */
 /*
 h1 {
   font-family: 'Poppins', sans-serif;
