@@ -1,2 +1,4 @@
-console.log('loaded');
-console.log('yep');
+
+$(document).ready(function() {
+  $('#fullpage').fullpage();
+});
