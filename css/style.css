@@ -1,11 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
-
-$color1: rgba(255, 255, 255, 1);
-$color2: rgba(0, 0, 0, 1);
-$color3: rgba(7, 16, 19, 1);
-$color4: rgba(74, 82, 90, 1);
-$color5: rgba(54, 57, 70, 1);
-
 @font-face {
     font-family: 'arca_majora_3bold';
     src: url('../fonts/arcamajora3-bold.woff2') format('woff2'),
@@ -22,23 +14,22 @@ $color5: rgba(54, 57, 70, 1);
     font-style: normal;
 }
 
-
-
 body {
   background-color: #FDFDFD;
   font-family: 'Didact Gothic', sans-serif;
+  color: #353535;
 
 }
 
 h1 {
   font-size: 400px;
   font-family: 'arca_majora_3heavy', sans-serif;
-  color: rgba(54, 57, 70, 1)
+  color: #30343F;
 }
 h2 {
   font-size: 200px;
   font-family: 'arca_majora_3heavy', sans-serif;
-  color: rgba(74, 82, 90, 1);
+  color: #4A5259;
 }
 h4 {
   font-size: 300px;
@@ -49,8 +40,8 @@ div .section {
 }
 
 p .me {
-  font-family: 'Roboto', sans-serif;
   font-size: 100px;
+
 }
 
 .container-fluid {
@@ -72,22 +63,22 @@ div .contacticon {
   max-width: 100%;
   font-size: 10rem;
 }
- p {
-   font-size: 25px;
+p {
+   font-size: 55px;
  }
 
 
 a {
-  color: black;
+  color: #4A5259;
 }
 
 a:hover {
-   color: black;
+  color: #4A5259;
    text-decoration: none;
  }
 
 p a:hover {
-  color: black;
+  color: #4A5259;
   text-decoration: underline;
 }
 
@@ -103,12 +94,12 @@ p a:hover {
   top: 0px;
   position: absolute;
   z-index: 999;
-  background-color: black;
+  color: #4A5259;
   opacity: 0.8;
 
 }
 
  .navbar a {
-  color: white;
+  color: #FDFDFD;
   font-size: 14px;
 }
