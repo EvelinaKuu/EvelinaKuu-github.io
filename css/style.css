@@ -34,17 +34,17 @@ h2 {
 h4 {
   font-size: 300px;
 }
-div .section {
+/* div .section {
       height: 100vh;
       overflow: auto;
-}
+} */
 
 p .me {
   font-size: 100px;
 
 }
 
-.container-fluid {
+.container {
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -83,23 +83,7 @@ p a:hover {
 }
 
 
-.section{
+/* .section{
     font-size: 6em;
     text-align: center;
-}
-
-.navbar {
-  width: 100%;
-  height: 75px;
-  top: 0px;
-  position: absolute;
-  z-index: 999;
-  color: #4A5259;
-  opacity: 0.8;
-
-}
-
- .navbar a {
-  color: #FDFDFD;
-  font-size: 14px;
-}
+} */
