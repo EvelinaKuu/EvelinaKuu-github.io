@@ -18,7 +18,17 @@ body {
   background-color: #FDFDFD;
   font-family: 'Didact Gothic', sans-serif;
   color: #353535;
+}
 
+nav {
+  background-color:  #FDFDFD;
+  font-size: 14px;
+}
+
+nav a {
+  color:  #30343F !important;
+  font-size: 30px !important;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 h1 {
@@ -54,6 +64,10 @@ div .work{
     padding: 2px 0 25px;
 }
 
+div .description {
+  padding: 25px 100px 10px;
+}
+
 div .skills{
     padding: 25px 100px 25px;
 }
@@ -68,7 +82,7 @@ div .projecticon {
 }
 
 div .devicon {
-font-size: 4.5em;
+font-size: 4em;
 float: none;
 margin: 0 auto;
 }
