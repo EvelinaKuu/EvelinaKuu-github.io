@@ -22,30 +22,26 @@ body {
 }
 
 h1 {
-  font-size: 400px;
+  font-size: 300px;
   font-family: 'arca_majora_3heavy', sans-serif;
   color: #30343F;
 }
-h2 {
+
+h2, h3 {
   font-size: 200px;
   font-family: 'arca_majora_3heavy', sans-serif;
   color: #4A5259;
 }
 h4 {
-  font-size: 300px;
+  font-size: 100px;
+  font-family: 'arca_majora_3heavy', sans-serif;
+  color: #4A5259;
 }
-/* div .section {
-      height: 100vh;
-      overflow: auto;
-} */
 
-div .intro {
-  font-size: 200px;
-
-}
 div .section{
   position: relative;
 }
+
 .container {
   padding-top: 70px;
   padding-bottom: 70px;
