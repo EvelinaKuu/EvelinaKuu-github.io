@@ -14,8 +14,18 @@
 
 <body>
   <main>
-    <div class="navbar-fixed">
-      <nav>
+
+
+    <div class="navbar">
+      <a class="navlink" href="#page1">Home</a>
+      <a class="navlink" href="#page2">About me</a>
+      <a class="navlink" href="#page3">Work</a>
+      <a href="#page3/slide3-3">Project 2</a>
+      <a class="navlink" href="#page4">Skills</a>
+      <a class="navlink" href="#page5">Contact me</a>
+    </div>
+    <!-- <div class="navbar-fixed">
+      <nav class="navbar">
       <div class="nav-wrapper">
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="sass.html">Sass</a></li>
@@ -24,17 +34,17 @@
         </ul>
       </div>
     </nav>
-    </div>
+    </div> -->
 
     <div id="fullpage">
-      <div class="section active">
+      <div class="section active" data-anchor="page1">
         <div class="">
           <h1 class="intro left">Hi, I'm Evelina,</h1>
           <h2 class="left">A Sign Language Interpreter turned Web Developer.</h2>
         </div>
       </div>
 
-      <div class="section info">
+      <div class="section info" data-anchor="page2">
         <div class="row">
           <p class="about">After a career as a Sign Language Interpreter and an entrepreneur I went for my goal to become a Web Developer. I put great value on using good online services and apps and wanted the skills to do it myself. The Web Developer Immersive course at General Assembly offered a great start for this. I am now looking for a Web Developer position in a company with a dynamic and friendly culture.</p>
         </div>
@@ -42,8 +52,8 @@
 
 
 
-      <div class="section work">
-        <div class="slide active color1">
+      <div class="section work" data-anchor="page3">
+        <div class="slide active color1" data-anchor="slide4-1">
           <div class="row">
             <div class="left">
               <h3>Work</h3>
@@ -75,7 +85,7 @@
             </div>
           </div>
         </div>
-        <div class="slide color2">
+        <div class="slide color2" data-anchor="slide4-2">
           <div class="center-align">
             <h3>WORK</h3>
           </div>
@@ -106,7 +116,7 @@
           </div>
         </div>
 
-        <div class="slide color1">
+        <div class="slide color1" data-anchor="slide4-3">
           <div class="center-align">
             <h3>WORK</h3>
           </div>
@@ -137,7 +147,7 @@
             </div>
           </div>
         </div>
-        <div class="slide color2">
+        <div class="slide color2" data-anchor="slide4-4">
           <div class="center-align">
             <h3>WORK</h3>
           </div>
@@ -168,7 +178,7 @@
           </div>
         </div>
       </div>
-      <div class="section skills">
+      <div class="section skills" data-anchor="page4">
         <div class="row">
           <h2>Development skills</h1>
           </div>
@@ -199,8 +209,8 @@
           </div>
         </div>
 
-        <div class="section contact">
-          <div class="row" data-anchor="page4">
+        <div class="section contact" data-anchor="page5">
+          <div class="row">
             <h2>Get in touch</h1>
             </div>
             <div class="row justify-content-around">
