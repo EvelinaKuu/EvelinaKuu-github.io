@@ -39,11 +39,13 @@ h4 {
       overflow: auto;
 } */
 
-p .about {
-  font-size: 100px;
+div .intro {
+  font-size: 200px;
 
 }
-
+div .section{
+  position: relative;
+}
 .container {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -75,7 +77,11 @@ div .contacticon {
 }
 
 img .contactme {
-
+ position: absolute;
+ max-width: 10%;
+ left: 0;
+ bottom: 300px;
+ margin: 0 auto;
 }
 p {
    font-size: 55px;
