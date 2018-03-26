@@ -46,13 +46,29 @@ div .section{
   padding-top: 70px;
   padding-bottom: 70px;
 }
+
+div .info{
+    padding: 25px 100px 25px;
+}
+div .work{
+    padding: 2px 0 25px;
+}
+
+div .skills{
+    padding: 25px 100px 25px;
+}
+div .contact{
+    padding: 25px 100px 25px;
+}
+
+
 div .projecticon {
   max-height: auto;
-  max-width: 300px;
+  max-width: 500px;
 }
 
 div .devicon {
-font-size: 2.5em;
+font-size: 4.5em;
 float: none;
 margin: 0 auto;
 }
