@@ -16,13 +16,23 @@
   <main>
 
     <div id="menu">
-      <div class="navbar">
-        <a class="navlink" href="#home">Home</a>
-        <a class="navlink" href="#about">About me</a>
-        <a class="navlink" href="#work">Work</a>
-        <a class="navlink" href="#skills">Skills</a>
-        <a class="navlink" href="#contact">Contact me</a>
-      </div>
+        <div class="navbar">
+          <div class="nav-wrapper">
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+              <div class="row">
+                <li><a class="navlink active" href="#home">Home</a></li>
+                <!-- <li class="divider"></li> -->
+                <li><a class="navlink active" href="#about">About me</a></li>
+                <li><a class="navlink active" href="#work">Work</a></li>
+                <li><a class="navlink active" href="#skills">Skills</a></li>
+                <li><a class="navlink active" href="#contact">Contact me</a></li>
+              </div>
+
+            </ul>
+          </div>
+        </div>
+
+
     </div>
     <div id="fullpage">
       <div class="section active home" data-anchor="home">
@@ -194,25 +204,35 @@
           <div class="row">
             <h2>Get in touch</h1>
             </div>
-            <div class="row justify-content-around">
-              <div class="col s4">
+            <div class="row">
+              <div class="col s5">
                 <img class="responsive-img contactme" src="images/me.jpg" alt="photo of Evelina">
               </div>
-              <div class="contacticon col s4">
-                <a href="mailto:evelina.kuusinen@gmail.com"><i class="contacticon far fa-envelope"></i>
-                </a>
-                <a target="_blank" href="https://github.com/EvelinaKuu"><i class="contacticon fab fa-github"></i>
-                </a>
-                <a target="_blank" href="https://www.linkedin.com/in/evelinakuusinen/"><i class="contacticon fab fa-linkedin-in"></i></a>
+                <div class="valign-wrapper">
+                  <div class="col s7 contacticon">
+
+                    <a href="mailto:evelina.kuusinen@gmail.com"><i class="contacticon far fa-envelope"></i>
+                    </a>
+
+
+                    <a target="_blank" href="https://github.com/EvelinaKuu"><i class="contacticon fab fa-github"></i>
+                    </a>
+
+
+                    <a target="_blank" href="https://www.linkedin.com/in/evelinakuusinen/"><i class="contacticon fab fa-linkedin-in"></i></a>
+
+                </div>
+
               </div>
+
             </div>
           </div>
         </div>
 
         <div class="footer-copyright ">
-          <div class="container fp-auto-height">
-            <p class="center-align">© 2018 Evelina Kuusinen</p>
-            <p class="center-align">Icons from <a class="links" href="images/credits.html">the Noun Project</a></p>
+          <div class="section fp-auto-height">
+            <p class="center-align footertext">© 2018 Evelina Kuusinen</p>
+            <p class="center-align footertext">Icons from <a class="links" href="images/credits.html">the Noun Project</a></p>
           </div>
         </div>
       </main>
