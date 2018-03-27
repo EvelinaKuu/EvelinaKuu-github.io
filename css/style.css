@@ -129,20 +129,20 @@ div .color2{
     background-color: #D4D4D4;
   }
 
-div.contacticon {
+div .contacticon {
   padding-top: 120px;
   height: 100%;
   max-width: 100%;
   font-size: 4rem;
 }
 
-div.contacticon a {
+div .contacticon a {
   padding-right: 10px;
 
 }
 
 div .contacticon a:hover {
-  color: black;
+  color: #30343F;
   text-decoration: none;
 }
 
@@ -175,6 +175,7 @@ div .footer{
   line-height: 0.5;
 }
 
- p a .link {
+.link
+{
   text-decoration: underline;
 }
