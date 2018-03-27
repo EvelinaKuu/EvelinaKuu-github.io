@@ -34,25 +34,15 @@ div .navbar {
   color:  #30343F;
 }
 
-ul {
+/* ul {
     width: 100%;
-}
+} */
 
 ul li {
   list-style-type: none;
   display: inline;
   margin: 10px;
-
-  padding-right: 10px;
-  padding-bottom: 300px;
-  margin-bottom: 10px
-  width: 60px;
 }
-
-/* a .navlink {
-  display: inline-block;
-  font-size: 100px !important;
-} */
 
 
 h1 {
@@ -117,8 +107,7 @@ div .projecticon {
 div .devicon {
   display: inline-flex;
   font-size: 5.5em;
-
-  padding: 25px 100px 25px;
+  padding: 25px 50px 25px;
 
 }
 
