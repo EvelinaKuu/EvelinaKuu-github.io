@@ -114,7 +114,9 @@ div .devicon {
 font-size: 3em;
 float: none;
 margin: 0 auto;
+padding-right: 15px;
 }
+
 
 div .color1{
 
@@ -136,13 +138,12 @@ div .contacticon a {
   padding-right: 20px;
 
 }
-/* img .contactme {
- position: absolute;
- max-width: 10%;
- left: 0;
- bottom: 300px;
- margin: 0 auto;
-} */
+
+div .contacticon a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 p {
    font-size: 20px;
  }
@@ -153,11 +154,12 @@ p {
 
 a {
   color: #4A5259;
+
 }
 
 a:hover {
   color: #4A5259;
-   text-decoration: none;
+
  }
 
 p a:hover {
@@ -165,8 +167,12 @@ p a:hover {
   text-decoration: underline;
 }
 
-p .footertext {
-  line-height: 0.5 !important;
-  margin: 0;
-  padding: 0;
+
+div .footer{
+  margin:30px;
+  line-height: 0.5;
+}
+
+ p a .link {
+  text-decoration: underline;
 }
