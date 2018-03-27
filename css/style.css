@@ -114,7 +114,7 @@ div .devicon {
 font-size: 3em;
 float: none;
 margin: 0 auto;
-padding-right: 15px;
+padding-right: 28px;
 }
 
 
@@ -127,15 +127,15 @@ div .color2{
     background-color: #D4D4D4;
   }
 
-div .contacticon {
+div.contacticon {
   padding-top: 120px;
   height: 100%;
   max-width: 100%;
   font-size: 4rem;
 }
 
-div .contacticon a {
-  padding-right: 20px;
+div.contacticon a {
+  padding-right: 10px;
 
 }
 
