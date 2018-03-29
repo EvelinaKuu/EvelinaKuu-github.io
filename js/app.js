@@ -7,7 +7,8 @@ function init() {
       menu: '#myMenu',
       paddingBottom: '10px',
       scrollingSpeed: 630,
-      loopBottom: true
+      loopBottom: true,
+      loopTop: true
 
 
       // autoScrolling: false

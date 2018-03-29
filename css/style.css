@@ -98,7 +98,7 @@ div .description {
 }
 
 div .skills{
-  padding: 25px 100px 25px;
+  padding: 30px 100px 25px;
 }
 div .contact{
   padding: 25px 100px 25px;
@@ -112,9 +112,8 @@ div .projecticon {
 
 div .devicon {
   display: inline-flex;
-  font-size: 5.5em;
   padding: 25px 50px 25px;
-
+  font-size: 75px;
 }
 
 i .devicon {
@@ -131,16 +130,25 @@ div .color2{
     background-color: #D4D4D4;
   }
 
-div .contacticon {
-  padding-top: 120px;
-  height: 100%;
-  max-width: 100%;
-  font-size: 4rem;
+div .contactme {
+  max-height: auto;
+  max-width: 600px;
+  padding: 5px 30px 0px 30px;
 }
 
-div .contacticon a {
-  padding-right: 10px;
+div .contacticon {
+  text-align: center;
+  padding: 5px 30px 0px 5px;
+  max-height: 100px;
+  max-width: 600px;
+  font-size: 50px;
+  margin: 0 auto;
 
+}
+.contacticon a {
+text-decoration: none;
+
+  /* padding: 5px 30px 0px 30px; */
 }
 
 div .contacticon a:hover {
@@ -158,9 +166,11 @@ p {
 
 a {
   color: #4A5259;
-
+  text-decoration: underline;
 }
-
+ .navbar a {
+   text-decoration: none;
+ }
 a:hover {
   color: #4A5259;
 
@@ -172,12 +182,7 @@ p a:hover {
 }
 
 
-div .footer{
-  margin:30px;
+div .footer {
+  margin: 30px;
   line-height: 0.5;
-}
-
-a .link
-{
-  text-decoration: underline;
 }
