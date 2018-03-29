@@ -33,6 +33,12 @@ div .navbar {
   padding-left: 100px;
   color:  #30343F;
 }
+div ul li.active {
+  background-color: #D4D4D4;
+  height: 100%;
+  padding: 50px 15px 2px;
+}
+
 
 /* ul {
     width: 100%;
