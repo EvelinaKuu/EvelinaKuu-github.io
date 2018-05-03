@@ -1,6 +1,4 @@
 function init() {
-
-
   $(document).ready(function() {
     $('#fullpage').fullpage({
       anchors: ['home', 'about', 'work', 'skills', 'contact'],
@@ -9,14 +7,7 @@ function init() {
       scrollingSpeed: 630,
       loopBottom: true,
       loopTop: true
-
-
-      // autoScrolling: false
-
-
     });
-
   });
 }
-
 init();
